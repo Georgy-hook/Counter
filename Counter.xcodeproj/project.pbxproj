@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		669FB5E929C1DC150083056E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FB5E829C1DC150083056E /* AppDelegate.swift */; };
 		669FB5EB29C1DC150083056E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FB5EA29C1DC150083056E /* SceneDelegate.swift */; };
-		669FB5ED29C1DC150083056E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FB5EC29C1DC150083056E /* ViewController.swift */; };
 		669FB5F029C1DC150083056E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FB5EE29C1DC150083056E /* Main.storyboard */; };
 		669FB5F229C1DC160083056E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669FB5F129C1DC160083056E /* Assets.xcassets */; };
 		669FB5F529C1DC160083056E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FB5F329C1DC160083056E /* LaunchScreen.storyboard */; };
 		669FB60029C1DC160083056E /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FB5FF29C1DC160083056E /* CounterTests.swift */; };
 		669FB60A29C1DC160083056E /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FB60929C1DC160083056E /* CounterUITests.swift */; };
 		669FB60C29C1DC160083056E /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FB60B29C1DC160083056E /* CounterUITestsLaunchTests.swift */; };
+		669FB61929C1EF420083056E /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FB61829C1EF420083056E /* CounterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		669FB5E529C1DC150083056E /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669FB5E829C1DC150083056E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669FB5EA29C1DC150083056E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		669FB5EC29C1DC150083056E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		669FB5EF29C1DC150083056E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		669FB5F129C1DC160083056E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669FB5F429C1DC160083056E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		669FB60529C1DC160083056E /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669FB60929C1DC160083056E /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
 		669FB60B29C1DC160083056E /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		669FB61829C1EF420083056E /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				669FB5E829C1DC150083056E /* AppDelegate.swift */,
 				669FB5EA29C1DC150083056E /* SceneDelegate.swift */,
-				669FB5EC29C1DC150083056E /* ViewController.swift */,
 				669FB5EE29C1DC150083056E /* Main.storyboard */,
+				669FB61829C1EF420083056E /* CounterViewController.swift */,
 				669FB5F129C1DC160083056E /* Assets.xcassets */,
 				669FB5F329C1DC160083056E /* LaunchScreen.storyboard */,
 				669FB5F629C1DC160083056E /* Info.plist */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				669FB5ED29C1DC150083056E /* ViewController.swift in Sources */,
+				669FB61929C1EF420083056E /* CounterViewController.swift in Sources */,
 				669FB5E929C1DC150083056E /* AppDelegate.swift in Sources */,
 				669FB5EB29C1DC150083056E /* SceneDelegate.swift in Sources */,
 			);
