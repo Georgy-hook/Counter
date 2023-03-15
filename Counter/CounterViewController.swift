@@ -18,10 +18,10 @@ class CounterViewController: UIViewController {
     
     @IBAction func Counter(_ sender: UIButton) {
         // Получаем текущее время
-        var time = NSDate()
-        var formatter = DateFormatter()
+        let time = NSDate()
+        let formatter = DateFormatter()
         formatter.dateFormat = "dd.MM.YYYY HH:mm:ss"
-        var formatteddate = formatter.string(from: time as Date)
+        let formatteddate = formatter.string(from: time as Date)
         
         //Проверяем по заранее заданным идентификаторам какая кнопка была нажата если такого не имется не делаем ничего
         var history = ""
