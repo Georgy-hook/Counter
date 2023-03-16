@@ -27,48 +27,43 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gB5-eB-5xO">
-                                        <rect key="frame" x="105.33333333333333" y="95" width="150.33333333333337" height="74"/>
+                                        <rect key="frame" x="106.66666666666669" y="95" width="148" height="74"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Refresh" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1v8-Uk-gZ1">
-                                                <rect key="frame" x="0.0" y="0.0" width="49.666666666666664" height="74"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="47.333333333333336" height="74"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="Refresh"/>
                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="">
-                                                    <imageReference key="image" image="arrow.2.circlepath.circle" catalog="system" symbolScale="large"/>
+                                                    <imageReference key="image" image="arrow.triangle.2.circlepath" catalog="system" symbolScale="medium"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="Counter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZmT-dQ-bRt"/>
+                                                    <action selector="didChangeNumberLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hne-ds-vqV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Minus" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dm8-iv-Pd2">
-                                                <rect key="frame" x="49.666666666666671" y="0.0" width="46" height="74"/>
+                                                <rect key="frame" x="47.333333333333329" y="0.0" width="46" height="74"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="Minus"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="-">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="Counter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Tu-Xn-iQA"/>
+                                                    <action selector="didChangeNumberLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9sR-ei-EW7"/>
                                                 </connections>
                                             </button>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m0x-xR-MXn">
-                                                <rect key="frame" x="95.666666666666671" y="0.0" width="54.666666666666671" height="74"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Plus" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmz-OC-HQu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="74"/>
-                                                        <accessibility key="accessibilityConfiguration" identifier="Plus"/>
-                                                        <color key="tintColor" red="1" green="0.0" blue="0.01666666667" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="+">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="Counter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QbO-Rc-WXB"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Plus" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmz-OC-HQu">
+                                                <rect key="frame" x="93.333333333333329" y="0.0" width="54.666666666666671" height="74"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="Plus"/>
+                                                <color key="tintColor" red="1" green="0.0" blue="0.01666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="didChangeNumberLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zcd-OI-TlO"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -112,7 +107,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.2.circlepath.circle" catalog="system" width="128" height="123"/>
+        <image name="arrow.triangle.2.circlepath" catalog="system" width="128" height="104"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

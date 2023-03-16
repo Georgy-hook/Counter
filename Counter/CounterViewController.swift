@@ -8,15 +8,15 @@
 import UIKit
 
 class CounterViewController: UIViewController {
-    @IBOutlet weak var numberLabel: UILabel!
+    @IBOutlet private weak var numberLabel: UILabel!
     
-    @IBOutlet weak var historyTextView: UITextView!
-    var number = 0 // переменная-счетчик
+    @IBOutlet private weak var historyTextView: UITextView!
+    private var number = 0 // переменная-счетчик
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func Counter(_ sender: UIButton) {
+    @IBAction private func didChangeNumberLabel(_ sender: UIButton) {
         // Получаем текущее время
         let time = NSDate()
         let formatter = DateFormatter()
